@@ -1,4 +1,4 @@
-# zce-pages
+# jq-pages
 
 [![NPM Downloads][downloads-image]][downloads-url]
 [![NPM Version][version-image]][version-url]

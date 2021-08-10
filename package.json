@@ -13,9 +13,11 @@
   "license": "MIT",
   "author": "zce <w@zce.me> (https://zce.me)",
   "files": [
-    "lib"
+    "lib",
+    "bin"
   ],
   "main": "lib/index.js",
+  "bin": "bin/jq-pages.js",
   "directories": {
     "lib": "lib"
   },

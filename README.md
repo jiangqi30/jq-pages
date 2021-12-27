@@ -3,10 +3,10 @@
 ## Installation
 
 ```shell
-$ yarn add jq-pages
+$ yarn add jq-pages --dev
 
 # or npm
-$ npm install jq-pages
+$ npm install jq-pages -D
 ```
 
 ## Usage
@@ -14,16 +14,15 @@ $ npm install jq-pages
 <!-- TODO: Introduction of API use -->
 
 ```javascript
-const zcePages = require('jq-pages')
-const result = zcePages('jq')
-// result => 'zce@zce.me'
+const jqPages = require('jq-pages')
+const result = jqPages('jq')
 ```
 
 ## API
 
 <!-- TODO: Introduction of API -->
 
-### zcePages(name[, options])
+### jqPages(name[, options])
 
 #### name
 
@@ -36,4 +35,4 @@ const result = zcePages('jq')
 
 - Type: `string`
 - Details: host string
-- Default: `'zce.me'`
+- Default: ``
